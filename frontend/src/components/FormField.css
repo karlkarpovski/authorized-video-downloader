@@ -1,0 +1,33 @@
+.form-field {
+  padding: 20px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.form-field:last-of-type {
+  border-bottom: none;
+}
+
+.form-field__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-field__number {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.form-field__label {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.form-field__hint {
+  margin: 4px 0 12px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
